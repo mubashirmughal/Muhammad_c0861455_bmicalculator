@@ -7,13 +7,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Weight"
         android:layout_gravity="center_horizontal"
+        android:text="Weight kg"
         android:textSize="30dp"
         android:layout_marginTop="80dp"/>
+
+
 
     <EditText
         android:id="@+id/weight"
@@ -21,16 +25,19 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:ems="6"
-        android:textAlignment="center"
-        />
+        android:textAlignment="center"/>
+
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Height"
         android:layout_gravity="center_horizontal"
+        android:text="Height cm"
         android:textSize="30dp"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="30dp"/>
+
+
 
     <EditText
         android:id="@+id/height"
@@ -38,29 +45,30 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:ems="6"
-        android:textAlignment="center"
-        />
+        android:textAlignment="center"/>
+
+
 
     <Button
         android:id="@+id/calculate_button"
-        android:text="Calculate BMI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textAlignment="center"
+        android:text="Calculate BMI"
         android:layout_marginTop="20dp"
-        android:onClick="calculateBmi"
-        />
+        android:onClick="calculateBMI"/>
+
+
+
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:textSize="30dp"
         android:text="Result"
-        android:gravity="center"
-        />
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+
 
 
 </LinearLayout>
